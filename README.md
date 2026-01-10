@@ -39,3 +39,8 @@ NTD-302 is licensed under the **CERN Open Hardware Licence Version 2 – Strongl
 
 © 2026 GolemMilk  
 Any derivative hardware must also be released under the same license.
+
+![2026-01-10 20 05の画像 2](https://github.com/user-attachments/assets/91695e07-f42f-4a5e-9dc7-f6c8ca5a7d07)
+![2026-01-10 20 05の画像](https://github.com/user-attachments/assets/4b3addf2-38ee-4aec-8c8b-0cd521078e7b)
+![IMG_2757](https://github.com/user-attachments/assets/b2d1404a-a9f0-44b6-bf8a-9a64f0d4b056)
+![IMG_2756](https://github.com/user-attachments/assets/eb781937-6ccf-4e56-a6de-8b8028fcf7cd)
