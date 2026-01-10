@@ -2,10 +2,8 @@
 
 | Ref | Value | Type | Qty |
 |----|------|-----|----|
-| R1, R2, R3 | 240Ω | 1/4W Metal Film | 3 |
-| R4 | 2.7kΩ | 1/4W Metal Film | 1 |
-| R11 | 330Ω | 1/2W Metal Film | 1 |
-| R30 | 1.8kΩ | 1/4W Metal Film | 1 |
+| R1 | 3.3kΩ | 1/4W Metal Film | 3 |
+
 | Rsc | 0.22Ω | 2W Cement | 1 |
 | VR1 | 5kΩ | Pot | 1 |
 | VR2 | 10kΩ | Pot | 1 |
