@@ -1,0 +1,7 @@
+NTD-302 is a compact Nutube preamp module designed for stompbox-format audio equipment.
+
+It integrates both a high-voltage boost converter and a low-noise heater regulator on a single PCB, enabling true Nutube operation from a standard 9V pedal supply.
+
+The circuit uses a star-ground topology and separated power domains to minimize switching noise and hum, making it suitable for studio and live applications.
+
+NTD-302 is released as open hardware under the CERN-OHL-S v2 license.
