@@ -44,5 +44,51 @@ Any derivative hardware must also be released under the same license.
 ![2026-01-10 20 05の画像](https://github.com/user-attachments/assets/4b3addf2-38ee-4aec-8c8b-0cd521078e7b)
 ![IMG_2757](https://github.com/user-attachments/assets/b2d1404a-a9f0-44b6-bf8a-9a64f0d4b056)
 ![IMG_2756](https://github.com/user-attachments/assets/eb781937-6ccf-4e56-a6de-8b8028fcf7cd)
+## Manufacturing Files
+
+This repository contains all production-ready files required to build the NTD-302 pedal.
+
+### Gerber Files (PCB Manufacturing)
+
+The folder `pcb/` includes the complete Gerber data set for direct submission to PCB manufacturers such as:
+
+- JLCPCB  
+- PCBWay  
+- Elecrow  
+- Seeed Studio  
+
+**File:**
+- `NTD-302_v1.0_Gerber.zip`
+
+These files can be uploaded directly to the manufacturer's quotation page without any modification.
+
+---
+
+### BOM (Bill of Materials)
+
+The folder `bom/` contains the full Bill of Materials:
+
+- `NTD-302_v1.0_BOM.csv`
+
+This BOM can be used for:
+- Manual parts ordering
+- JLCPCB SMT Assembly (PCBA)
+- Digikey / Mouser ordering
+
+All reference designators match the KiCad schematic and PCB silkscreen.
+
+---
+
+### Pick & Place File (PCBA)
+
+If you plan to use JLCPCB SMT Assembly, the Pick & Place file is also included:
+
+- `NTD-302_v1.0_PickPlace.csv`
+
+This file defines the exact SMT placement coordinates and rotation data.
+
+---
+
+All files are verified on a physically built and tested prototype.
 [bom.csv](https://github.com/user-attachments/files/24546895/bom.csv)
 [NTD-302.zip](https://github.com/user-attachments/files/24546897/NTD-302.zip)
