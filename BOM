@@ -7,8 +7,10 @@
 | R11 | 330Ω | 1/2W Metal Film | 1 |
 | R30 | 1.8kΩ | 1/4W Metal Film | 1 |
 | Rsc | 0.22Ω | 2W Cement | 1 |
-| VR1 | 5kΩ | Trimmer | 1 |
-| VR2 | 2kΩ | Trimmer | 1 |
+| VR1 | 5kΩ | Pot | 1 |
+| VR2 | 10kΩ | Pot | 1 |
+| VR3 | 50kΩ | Pot | 1 |
+| TRIM | 2kΩ | Trimmer | 1 |
 | C1–C5 | 10µF 50V | Electrolytic | 5 |
 | C6–C10 | 100nF | Film | 5 |
 | C17 | 10nF | Film | 1 |
