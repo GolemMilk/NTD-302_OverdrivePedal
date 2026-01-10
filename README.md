@@ -1,4 +1,4 @@
-# NTD-302-Overdrive-Pedal-for-guitar-
+# NTD-302(Overdrive-Pedal)
 Korg Nutube overdrive pedal
 
 ## License
