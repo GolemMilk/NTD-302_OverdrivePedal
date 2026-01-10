@@ -11,9 +11,13 @@
 | VR2 | 10kΩ | Pot | 1 |
 | VR3 | 50kΩ | Pot | 1 |
 | TRIM | 2kΩ | Trimmer | 1 |
-| C1–C5 | 10µF 50V | Electrolytic | 5 |
-| C6–C10 | 100nF | Film | 5 |
-| C17 | 10nF | Film | 1 |
+| C1,C8,C11,C21,C30 | 0.1µF 50V | 5 |
+| C2,C3,C7,C9,C23| 10µF 50V | 5 |
+| C4,C6,C12,| 100µF 50V | 5 |
+| C5 | 10pF | 1 |
+| C15 | 470μF | 1 | 
+| C6–C10 | 100nF |  |  |
+| C17 | 10nF | F | 1 |
 | L1 | 150µH | Power Inductor | 1 |
 | D1| 1N5819| Rectifier Diode | 1 |
 | D2| LED Diode | 1 |
