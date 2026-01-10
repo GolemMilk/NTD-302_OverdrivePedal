@@ -13,7 +13,9 @@
 | C6–C10 | 100nF | Film | 5 |
 | C17 | 10nF | Film | 1 |
 | L1 | 150µH | Power Inductor | 1 |
-| D1–D3 | 1N4007 | Rectifier Diode | 3 |
-| Q1–Q3 | Small Signal NPN | 3 |
+| D1| 1N5819| Rectifier Diode | 1 |
+| D2| LED Diode | 1 |
+| D3| 1N10| Diode | 1 |
+| Q1–Q3 | 2N3904 NPN | 3 |
 | IC1 | NJM2360 | Boost Controller | 1 |
 | N1 | Nutube 6P1 | Vacuum Tube | 1 |
