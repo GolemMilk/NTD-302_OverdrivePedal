@@ -80,6 +80,25 @@ Builders must independently verify all electrical behavior before operation.
 
 ⸻
 
+Case / Enclosure
+
+For the enclosure, the circuit is designed to fit the following Takachi Electric Industrial aluminum cases:
+
+Standard height version
+Takachi Electric Industrial SPCP131808T
+Marutsu Code: M0002-3623
+
+This enclosure provides sufficient internal height to ensure safe mechanical clearance for the Nutube module, high-voltage power circuitry, and thermal stability while maintaining a compact footprint suitable for pedalboard use.
+
+Low-profile version
+For a thinner and lower-profile build, the following enclosure is also compatible:
+
+Takachi Electric Industrial SPCP131806G
+Marutsu Code: M0006-3822
+
+⸻
+
+This version allows a slimmer pedal format while preserving the full electrical and sonic performance of the circuit.
 Final Words
 
 NTD-302 is released as a free, open hardware reference design —
