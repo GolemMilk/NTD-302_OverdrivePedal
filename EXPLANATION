@@ -1,7 +1,91 @@
 NTD-302 is a compact Nutube preamp module designed for stompbox-format audio equipment.
 
-It integrates both a high-voltage boost converter and a low-noise heater regulator on a single PCB, enabling true Nutube operation from a standard 9V pedal supply.
+NTD-302 — Nutube Overdrive / Distortion
 
-The circuit uses a star-ground topology and separated power domains to minimize switching noise and hum, making it suitable for studio and live applications.
+by GolemMilk (2026)
 
-NTD-302 is released as open hardware under the CERN-OHL-S v2 license.
+⸻
+
+Overview
+
+NTD-302 is a high-voltage analog overdrive/distortion pedal featuring the Nutube 6P1, a revolutionary vacuum fluorescent display (VFD)–based triode device that reproduces true vacuum-tube behavior in an ultra-compact, low-power format.
+
+This project is both a tribute and an exploration — a modern reinterpretation of tube saturation, created entirely in discrete analog circuitry.
+
+⸻
+
+Acknowledgement
+
+This technology would not exist without the pioneering work of Fumio Saegusa (KORG) and Noritake Itron Corporation, who jointly developed the Nutube device.
+As of 2026, Nutube celebrates its 10th anniversary (released September 23, 2016) and remarkably continues to be sold in Japan for the same price — ¥5,500 JPY (tax-included) — unchanged since launch, despite severe global inflation.
+
+Interestingly, although Nutube was originally expected to replace traditional vacuum tubes after the Ukraine-related supply crisis, most audio communities concluded that Nutube was not a simple drop-in replacement.
+Why?
+
+Because Nutube introduces fundamentally different electrical requirements:
+
+• Filament voltage must be tightly controlled (damage occurs above 0.7 V)
+• Grid bias must be driven by positive voltage
+• Anode voltage requires ≥12 V for proper performance (30 V is ideal)
+• Requires three separate regulated rails (30 V / 9 V / 5 V)
+• Demands strict grounding topology and noise isolation
+
+These factors made Nutube development knowledge-heavy, power-sensitive, and electrically unforgiving — leading many designers to abandon the device prematurely.
+
+NTD-302 exists to prove that Nutube can be the star — not a gimmick.
+
+⸻
+
+Circuit Concept
+
+NTD-302 uses both triode sections of a single Nutube 6P1, connected in true serial amplification and driven by a regulated 30 V anode supply.
+
+Signal flow:
+JFET buffer → Nutube stage 1 → Nutube stage 2 → transistor buffer → frequency-dependent gain network → output volume
+
+Unlike conventional distortion circuits, gain is not primarily voltage-based — it is frequency-selective.
+A unique RC low-pass network performs tone-dependent amplification: reducing treble simultaneously increases perceived drive and thickness, producing a naturally compressed and creamy distortion character.
+
+The final emitter stage introduces frequency shaping that allows:
+
+• Sparkling Strat-style bite
+• Thick humbucker-like low-end punch
+• Wide dynamic response
+• Extremely low noise floor
+
+This pedal offers a fully analog, high-voltage Nutube distortion voice with fast attack, warm compression, and rich even-order harmonics.
+
+Electrical Requirements
+Rail	Requirement
+30 V Anode	Inductor must meet saturation current spec
+Rsc	0.22 Ω / 2 W (mandatory)
+5 V Rail	≥ 1.5 A current capability (500 mA is insufficient)
+Grounding	Star-ground topology by functional island is mandatory
+Without strict star grounding and power isolation, the circuit will not function correctly.
+
+Component Tolerance
+
+Reference	Nominal	Acceptable
+R4	2.9 kΩ	2.7 kΩ – 3 kΩ
+R30	1.9 kΩ	1.5 kΩ – 2.2 kΩ
+All other component values should be kept as specified.
+
+⸻
+
+Safety & Liability
+
+This design is published as-is.
+GolemMilk assumes no responsibility for any damage, injury, or loss resulting from construction or usage.
+Builders must independently verify all electrical behavior before operation.
+
+⸻
+
+Final Words
+
+NTD-302 is released as a free, open hardware reference design —
+built with love, respect, and deep admiration for guitar culture, analog electronics, and the art of distortion.
+
+May this project serve as a foundation for the next generation of Nutube knowledge.
+
+Rock on. 🎸
+GolemMilk — 2026
