@@ -9,15 +9,11 @@ NTD-302 is licensed under the CERN Open Hardware Licence Version 2 – Strongly 
 
 Any derivative hardware must also be released under the same license.
 
-
-# NTD-302
-
+## Features
 **NTD-302** is a high-voltage Nutube preamp module designed for guitar and bass applications.  
 It features an onboard boost converter generating 30V for the Nutube plate supply and a dedicated 5V regulated heater supply.
 
 The circuit is optimized for low-noise operation using star-ground topology and separated power domains.
-
-## Features
 
 - KORG Nutube 6P1 based preamp
 - Onboard 30V boost converter (NJM2360)
@@ -30,15 +26,8 @@ The circuit is optimized for low-noise operation using star-ground topology and 
 
 - Input: 9V DC (Center Negative)
 - Internal rails:
-  - 30V (plate)
-  - 5V (heater)
-
-## License
-
-NTD-302 is licensed under the **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2)**.
-
-© 2026 GolemMilk  
-Any derivative hardware must also be released under the same license.
+  - 30V (anode)
+  - 5V (For filament & grid)
 
 ![2026-01-10 20 05の画像 2](https://github.com/user-attachments/assets/91695e07-f42f-4a5e-9dc7-f6c8ca5a7d07)
 ![2026-01-10 20 05の画像](https://github.com/user-attachments/assets/4b3addf2-38ee-4aec-8c8b-0cd521078e7b)
