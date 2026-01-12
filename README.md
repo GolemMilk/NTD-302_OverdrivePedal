@@ -45,8 +45,7 @@ Any derivative hardware must also be released under the same license.
 ![IMG_2757](https://github.com/user-attachments/assets/b2d1404a-a9f0-44b6-bf8a-9a64f0d4b056)
 ![IMG_2756](https://github.com/user-attachments/assets/eb781937-6ccf-4e56-a6de-8b8028fcf7cd)
 
-## Manufacturing Files
-
+---
 
 ### BOM (Bill of Materials)
 
@@ -62,11 +61,11 @@ The BOM can be used for:
 - JLCPCB SMT Assembly (PCBA)  
 - Digikey / Mouser ordering  
 
----
-
 [bom.csv](https://github.com/user-attachments/files/24546895/bom.csv)
 
 This repository provides all production-ready files required to manufacture and assemble the NTD-302 pedal.
+
+---
 
 ### Gerber Files (PCB Manufacturing)
 
@@ -82,8 +81,6 @@ This file contains all PCB fabrication layers and can be uploaded directly to PC
 - Seeed Studio  
 
 No modification is required.
-
----
 
 [NTD-302.zip](https://github.com/user-attachments/files/24546897/NTD-302.zip)
 
