@@ -4,7 +4,7 @@ NTD-302 — Nutube Overdrive / Distortion
 
 by GolemMilk (2026)
 
-⸻
+---
 
 Overview
 
@@ -12,7 +12,7 @@ NTD-302 is a high-voltage analog overdrive/distortion pedal featuring the Nutube
 
 This project is both a tribute and an exploration — a modern reinterpretation of tube saturation, created entirely in discrete analog circuitry.
 
-⸻
+---
 
 Acknowledgement
 
@@ -34,7 +34,7 @@ These factors made Nutube development knowledge-heavy, power-sensitive, and elec
 
 NTD-302 exists to prove that Nutube can be the star — not a gimmick.
 
-⸻
+---
 
 Circuit Concept
 
@@ -70,7 +70,7 @@ R4	2.9 kΩ	2.7 kΩ – 3 kΩ
 R30	1.9 kΩ	1.5 kΩ – 2.2 kΩ
 All other component values should be kept as specified.
 
-⸻
+---
 
 Safety & Liability
 
@@ -78,7 +78,7 @@ This design is published as-is.
 GolemMilk assumes no responsibility for any damage, injury, or loss resulting from construction or usage.
 Builders must independently verify all electrical behavior before operation.
 
-⸻
+---
 
 Case / Enclosure
 
@@ -99,7 +99,7 @@ Marutsu Code: M0006-3822
 Please use aitendo's "nutube10S" as the Nutube conversion board.
 aitendo Code: P-NUTUBE10S
 
-⸻
+---
 
 This version allows a slimmer pedal format while preserving the full electrical and sonic performance of the circuit.
 Final Words
